@@ -11,11 +11,11 @@ os.makedirs(save_directory, exist_ok=True)
 
 # List of texts to display on each photo
 texts = [
-    "look in the camera and press s",
-    "look at your left side and press s",
-    "look at your right side and press s",
-    "look upwards and press s",
-    "look downwards and press s"
+    "look in the camera and press s, to quit press q",
+    "look at your left side and press s, to quit press q",
+    "look at your right side and press s, to quit press q",
+    "look upwards and press s, to quit press q",
+    "look downwards and press s, to quit press q"
 ]
 # Function to capture photos
 def capture_photos():
